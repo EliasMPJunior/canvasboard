@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/theme.css" type="text/css">
+</head>
+
+<body class="" style="">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top" style="">
+    <div class="container">
+      <a class="navbar-brand"> b&gt; </a>
+      <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar16">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar16">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+          </li>
+          <li class="nav-item"> <a class="nav-link" href="#service">Sobre</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#plans">Planos</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#about">Sobre</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#faq">Dúvidas</a></li>
+        </ul>
+        <div class="row">
+          <div class="col-md-12 mr-5 rounded">
+            <div class="btn-group rounded">
+              <a class="btn navbar-btn ml-2 text-white btn-primary" href="#"><i class="fa d-inline fa-lg fa-user-circle-o ml-1"></i>&nbsp;</a>
+              <div class="dropdown-menu">
+                <form class="px-4">
+                  <div class="form-group">
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="esqueci.html">Esqueceu a senha?</a>
+                  </div>
+                </form>
+              </div>
+              <div class="row">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- TABS -->
+  <div class="py-5" style="" >
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="nav nav-tabs">
+            <li class="nav-item"> <a href="" class="nav-link" data-toggle="pill" data-target="#tab1"><i class="fa fa-book fa-lg"></i> Histórico </a> </li>
+            <li class="nav-item"> <a href="" class="nav-link active" data-toggle="pill" data-target="#tab2"><i class="fa fa-home fa-lg"></i> Orçamento </a> </li>
+            <li class="nav-item"> <a href="" class="nav-link" data-toggle="pill" data-target="#tab3"><i class="fa fa-list fa-lg"></i> Cronograma </a> </li>
+            <li class="nav-item"> <a href="" class="nav-link" data-toggle="pill" data-target="#tab4"><i class="fa fa-money fa-lg"></i> Financeiro </a> </li>
+            <li class="nav-item"> <a href="" class="nav-link" data-toggle="pill" data-target="#tab5"><i class="fa fa-sign-out fa-lg"></i> Email </a> </li>
+            <li class="nav-item"> <a href="" class="nav-link" data-toggle="pill" data-target="#tab6"><i class="fa fa-pie-chart fa-lg"></i> Informações </a> </li>
+          </ul>
+          <!-- TAB2 -->
+          <div class="tab-content mt-2">
+            <div class="tab-pane fade active show" id="tab2" role="tabpanel">
+              <!-- BOX -->
+              <div class="row">
+                <div class="col-md-12 py-1">
+                  <div class="input-group">
+                    <button class="btn btn-primary" type="button"> Nome do projeto </button>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Nome">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="col-md-12 py-1">
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                      <label class="btn btn-primary active">
+                        <input type="radio" name="options" id="option1" autocomplete="off" check=""> Construir </label>
+                      <label class="btn btn-primary">
+                        <input type="radio" name="options" id="option2" autocomplete="off"> Reformar </label>
+                      <label class="btn btn-primary">
+                        <input type="radio" name="options" id="option3" autocomplete="off"> Demolir </label></div>
+                  </div>
+                </div>
+                <div class="col-md-6 py-1"><a class="btn btn-primary" href="#"><i class="fa fa-download fa-fw"></i>&nbsp;Salvar </a></div>
+              </div>
+              <!-- END BOX -->
+              <!-- SALA -->
+              <div id="accordion">
+                <div class="card">
+                  <div class="card-header bg-light" id="headingSala1">
+                    <div class="row">
+                      <div class="col-md-2 text-center">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSala1" aria-expanded="true" aria-controls="collapseSala1"> Nome </button>
+                          <span class="badge badge-pill badge-primary">1</span></h5>
+                        <div class="form-group"><input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Ex:Sala"></div>
+                      </div>
+                      <div class="col-md-2"></div>
+                      <div class="col-md-2"></div>
+                      <div class="col-md-1"></div>
+                      <div class="col-md-3"></div>
+                      <div class="col-md-2">
+                        <a class="btn btn-primary btn-sm" href="#"><i class="fa fa-window-restore fa-fw fa-1x py-1"></i></a>
+                        <a class="btn btn-sm btn-info" href="#"><i class="fa fa-times fa-fw fa-1x py-1"></i></a>
+                        <a class="btn btn-danger btn-sm" href="#"><i class="fa fa-trash-o fa-lg fa-1x py-1"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="collapseSala1" class="collapse show" aria-labelledby="headingSala1" data-parent="#accordion" style="">
+                    <div class="card-body"> . <div class="row">
+                        <div class="col-md-12">
+                          <!-- ACCORDION2 -->
+                          <!-- PISOSALA -->
+                          <div id="accordion2">
+                            <div class="card">
+                              <div class="card-header bg-light" id="headingPisoSala">
+                                <div class="row">
+                                  <div class="col-md-2 text-center">
+                                    <h5 class="mb-0">
+                                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsePisoSala" aria-expanded="false" aria-controls="collapsPisoSala"> Piso </button>
+                                      <span class="badge badge-pill badge-primary">1</span></h5>
+                                  </div>
+                                  <div class="col-md-2"></div>
+                                  <div class="col-md-2"></div>
+                                  <div class="col-md-1"></div>
+                                  <div class="col-md-3">
+                                    <div class="input-group mb-3">
+                                      <div class="input-group-prepend">
+                                        <span class="input-group-text">R$</span>
+                                      </div>
+                                      <input type="text" class="form-control" aria-label="Reais" readonly="">
+                                    </div>
+                                  </div>
+                                  <div class="col-md-2">
+                                    <a class="btn btn-primary btn-sm" href="#"><i class="fa fa-window-restore fa-fw fa-1x py-1"></i></a>
+                                    <a class="btn btn-sm btn-info" href="#"><i class="fa fa-times fa-fw fa-1x py-1"></i></a>
+                                    <a class="btn btn-danger btn-sm" href="#"><i class="fa fa-trash-o fa-lg fa-1x py-1"></i></a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div id="collapsePisoSala" class="collapse" aria-labelledby="headingPisoSala" data-parent="#accordion2">
+                                <div class="card-body"></div>
+                                <!-- COMPOSITION -->
+                                <div class="row">
+                                  <div class="col-md-12">
+                                    <div class="row">
+                                      <div class="col-md-12">
+                                        <div class="row">
+                                          <div class="col-md-2">
+                                            <div class="input-group mb-3">
+                                              <div class="input-group-prepend">
+                                                <div class="input-group-text">
+                                                  <input type="checkbox" aria-label="Checkbox for following text input">
+                                                </div>
+                                              </div>
+                                              <input type="text" class="form-control m-0 p-0" aria-label="Text input with checkbox" placeholder="Ativo?" readonly="">
+                                            </div>
+                                          </div>
+                                          <div class="col-md-10">
+                                            <div class="row">
+                                              <div class="col-md-4">
+                                                <div class="input-group mb-3">
+                                                  <div class="input-group-prepend">
+                                                    <span class="input-group-text">Código-Nome</span>
+                                                  </div>
+                                                  <input type="text" class="form-control" aria-label="composicao">
+                                                </div>
+                                              </div>
+                                              <div class="col-md-4">
+                                                <div class="row">
+                                                  <div class="col-md-6">
+                                                    <div class="input-group mb-3">
+                                                      <div class="input-group-prepend">
+                                                        <span class="input-group-text">Qtd.</span>
+                                                      </div>
+                                                      <input type="text" class="form-control" aria-label="qtd">
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-md-6">
+                                                    <div class="input-group mb-3">
+                                                      <div class="input-group-prepend">
+                                                        <span class="input-group-text">Uni.</span>
+                                                      </div>
+                                                      <input type="text" class="form-control" aria-label="uni">
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="col-md-4">
+                                                <div class="row">
+                                                  <div class="col-md-6">
+                                                    <div class="input-group mb-3">
+                                                      <div class="input-group-prepend">
+                                                        <span class="input-group-text">R$</span>
+                                                      </div>
+                                                      <input type="text" class="form-control" aria-label="Reais">
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-md-6">
+                                                    <div class="input-group mb-3">
+                                                      <div class="input-group-prepend">
+                                                      </div>
+                                                      <select class="custom-select" id="inputGroupSelect01">
+                                                        <option selected="" value="Choose...">Base</option>
+                                                        <option value="1">Base 1</option>
+                                                        <option value="2">Base 2</option>
+                                                        <option value="3">Base 3</option>
+                                                      </select>
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- END COMPOSITION -->
+                                <!-- TAB SCO -->
+                                <div class="row">
+                                  <div class="col-md-12">
+                                    <div class="table-responsive">
+                                      <table class="table">
+                                        <thead>
+                                          <tr>
+                                            <th>Item Elementar</th>
+                                            <th>Antigo</th>
+                                            <th>Item Reutilizado</th>
+                                            <th>Descrição</th>
+                                            <th>Uni. de Medida</th>
+                                            <th>Quantidade</th>
+                                            <th>Custo Uni (R$)</th>
+                                            <th>Custo Parcial (R$)</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>1</td>
+                                            <td>a</td>
+                                            <td>b</td>
+                                            <td>c</td>
+                                            <td>d</td>
+                                            <td>e</td>
+                                            <td>f</td>
+                                            <td>g</td>
+                                          </tr>
+                                          <tr>
+                                            <td>2</td>
+                                            <td>h</td>
+                                            <td>i</td>
+                                            <td>j</td>
+                                            <td>k</td>
+                                            <td>l</td>
+                                            <td>m</td>
+                                            <td>n</td>
+                                          </tr>
+                                          <tr>
+                                            <td>3</td>
+                                            <td>o</td>
+                                            <td>p</td>
+                                            <td>q</td>
+                                            <td>r</td>
+                                            <td>s</td>
+                                            <td>t</td>
+                                            <td>u</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-2"><button type="button" class="btn btn-primary " data-toggle="modal" data-target="#modalExemplo"> + </button></div>
+                                      <div class="col-md-2"></div>
+                                      <div class="col-md-2"></div>
+                                      <div class="col-md-2"></div>
+                                      <div class="col-md-2"></div>
+                                      <div class="col-md-2"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- END TAB SCO -->
+                              </div>
+                            </div>
+                            <!-- END PISOSALA -->
+                            <div class="row">
+                              <div class="col-md-2"><button type="button" class="btn btn-primary " data-toggle="modal" data-target="#modalExemplo"> + </button>
+                              </div>
+                              <div class="col-md-2"></div>
+                              <div class="col-md-2"></div>
+                              <div class="col-md-2"></div>
+                              <div class="col-md-4">
+                                <div class="input-group mb-3">
+                                  <div class="input-group-prepend"></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- END ACCORDION2 -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- END SALA -->
+                <!-- COZINHA -->
+                
+                  <div class="row">
+                    <div class="col-md-2"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo"> + </button></div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
+                      <div class="input-group mb-3">
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Adicionar&nbsp;</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                  <span aria-hidden="true">×</span>
+                                </button>
+                              </div>
+                              <div class="modal-body">
+                                <div class="row">
+                                  <div class="col-md-12 text-center pb-2">
+                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                      <label class="btn btn-secondary">
+                                        <input type="radio" name="options" id="option1" autocomplete="off" checked=""> Mesmo nível </label>
+                                      <label class="btn btn-secondary active">
+                                        <input type="radio" name="options" id="option2" autocomplete="off"> Sub-nível </label>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="modal-body">
+                                  <h5 class="">Título</h5>
+                                  <form class="form-inline">
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Search">
+                                      <div class="input-group-append"><button class="btn btn-primary" type="button"><i class="fa fa-search"></i></button></div>
+                                    </div>
+                                  </form>
+                                </div>
+                                <div class="modal-body">
+                                  <h5 class="">Buscar Composição</h5>
+                                  <form class="form-inline">
+                                    <div class="input-group">
+                                      <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Search">
+                                      <div class="input-group-append"><button class="btn btn-primary" type="button"><i class="fa fa-search"></i></button></div>
+                                    </div>
+                                  </form>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                  <button type="button" class="btn btn-primary">Criar Mudanças</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END QUARTO2 -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </div>
+</body>
+
+</html>
